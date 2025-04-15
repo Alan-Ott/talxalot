@@ -10,12 +10,9 @@
 > 	- add, delete, list, update
 > Setup empty Components corresponding to Talks Store
 > 
-> Evan - Add Talk (store & component)
+> Alan - Add Talk (store & component)
 > Evan - Setup tailwind 
-> 
-> Alan - List Talks  (store & component)
-> Alan - 
-> 
+
 
 ---
 
