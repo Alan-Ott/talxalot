@@ -5,24 +5,15 @@ const useStoreTalks = create(
     combine(
         //inital state
         {
-            id: 0,
-            title: '',
-            subject: '',
-            duration: 0,
-            author: '',
-            goal: '',
+            talks: [],
         },
 
         (set) => ({
 
             addTalk: (talk) =>
                 set((state) => ({
-                    id: state.id, 
-                    title: state.title, 
-                    subject: state.subject,
-                    duration: state.duration,
-                    author: state.author,
-                    goal: state.goal,
+                   talks: [...state.talks, talk]
+                  
                 })),
 
             updateTalk: (talk) =>
@@ -34,12 +25,7 @@ const useStoreTalks = create(
                 set((state) => ({
                     talks: state.talks.filter((talk) => talk.id !== id)
                 })),
-
-            listTalks: (talk) =>
-                set((state) => ({
-
-                })),
-
+                
         })));
 
 export default useStoreTalks;
