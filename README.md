@@ -1,3 +1,21 @@
+# App Talxalot (Concept)
+
+> [!NOTE] Work flow Organiser
+> Create React app with Vite
+> Install Zustand
+> Setup Environment 
+> 
+> Add logo & Title 
+> Setup empty Talks Store with following functions
+> 	- add, delete, list, update
+> Setup empty Components corresponding to Talks Store
+> 
+> Alan - Add Talk (store & component)
+> Evan - Setup tailwind 
+
+
+---
+
 # 🧠 Talks
 
 ### 🎯 Objectif de l'application React 

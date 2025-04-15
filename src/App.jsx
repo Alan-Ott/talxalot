@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import axelot from './assets/Logo.svg'
-
 import './App.css'
+import axelot from './assets/Logo.svg'
+import AddTalk from './components/AddTalk'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +16,7 @@ function App() {
             </h1>
         </div>
 
+      <AddTalk></AddTalk>
 
     </>
   )
