@@ -1,6 +1,6 @@
 # App Talxalot (Concept)
 
-> [!NOTE] Work flow Organiser
+> [!NOTE] Development History
 >
 > Create React app with Vite
 >
@@ -21,8 +21,13 @@
 >
 > Alan - Fix Add Talk, Add List Talks (component)
 >
+> Alan - Implement Delete Talk function 
 >
-
+>
+>
+>
+>
+>
 
 ---
 

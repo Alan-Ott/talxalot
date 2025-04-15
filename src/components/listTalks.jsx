@@ -4,6 +4,7 @@ import useStoreTalks from '../store/useStoreTalks';
 function ListTalks() {
 
     const listTalks = useStoreTalks((state) => state.talks);
+    const deleteTalk = useStoreTalks((state) => state.deleteTalk);
 
     return (
         <div>
@@ -18,7 +19,7 @@ function ListTalks() {
                         Author : {talk.author}{' '}
                         Goal : {talk.goal}{' '}
                     </div>
-
+                    <button onClick={() => (deleteTalk(talk.id), console.log('Deleted talk : ',talk.id))}>Delete</button>
                 </div>
             ))}
         </div>
