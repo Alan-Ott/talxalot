@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import axelot from './assets/Logo.svgg'
+
+import axelot from './assets/Logo.svg'
+import AddTalk from './components/AddTalk'
 
 import './App.css'
 
@@ -13,6 +15,7 @@ function App() {
         <h1>Talxalot</h1>
       </div>
 
+      <AddTalk></AddTalk>
 
     </>
   )
