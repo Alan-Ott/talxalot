@@ -23,7 +23,7 @@
 >
 > Alan - Implement Delete Talk function 
 >
->
+> Alan - Improve Delete with ModalButton and Modal (components) 
 >
 >
 >

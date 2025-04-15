@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import useStoreTalks from '../store/useStoreTalks';
+import ModalButton from './ModalButton';
 
 function ListTalks() {
 
     const listTalks = useStoreTalks((state) => state.talks);
-    const deleteTalk = useStoreTalks((state) => state.deleteTalk);
 
     return (
         <div>
@@ -19,7 +19,8 @@ function ListTalks() {
                         Author : {talk.author}{' '}
                         Goal : {talk.goal}{' '}
                     </div>
-                    <button onClick={() => (deleteTalk(talk.id), console.log('Deleted talk : ',talk.id))}>Delete</button>
+                    <ModalButton id={talk.id} action={'Delete'} context={'Talk'}/>
+                    
                 </div>
             ))}
         </div>
