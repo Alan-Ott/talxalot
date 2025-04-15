@@ -19,6 +19,8 @@
 >
 > Alan - Add Talk (store & component)
 >
+> Alan - Fix Add Talk, Add List Talks (component)
+>
 >
 
 
