@@ -1,18 +1,33 @@
 # App Talxalot (Concept)
 
-> [!NOTE] Work flow Organiser
+> [!NOTE] Development History
+>
 > Create React app with Vite
+>
 > Install Zustand
+>
 > Setup Environment 
 > 
 > Add logo & Title 
+>
 > Setup empty Talks Store with following functions
-> 	- add, delete, list, update
+> 	- (add, delete, list, update)
+>
 > Setup empty Components corresponding to Talks Store
 > 
-> Alan - Add Talk (store & component)
 > Evan - Setup tailwind 
-
+>
+> Alan - Add Talk (store & component)
+>
+> Alan - Fix Add Talk, Add List Talks (component)
+>
+> Alan - Implement Delete Talk function 
+>
+> Alan - Improve Delete with ModalButton and Modal (components) 
+>
+>
+>
+>
 
 ---
 

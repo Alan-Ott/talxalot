@@ -23,6 +23,7 @@ function AddTalk() {
             duration: duration,
             author: author,
             goal: goal
+
         });
 
         setTitle('');
