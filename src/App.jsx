@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import axelot from './assets/axolotl-silhouette-vector.jpg'
+import axelot from './assets/Logo.svgg'
 
 import './App.css'
 
