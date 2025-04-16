@@ -17,7 +17,7 @@ const useStoreTalks = create(
 
             updateTalk: (talk) =>
                 set((state) => ({
-
+                    talks: [...state.talks, talk]
                 })),
 
             deleteTalk: (id) =>
