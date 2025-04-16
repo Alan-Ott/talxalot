@@ -29,7 +29,7 @@
 >
 > Alan - Switch case Modular DeleteModal 
 >
->
+> Evan - Remove switch case, update et delete fonctionnel
 
 ---
 
