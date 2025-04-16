@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import Modal from './Modal';
 
+function ModalButton({ id, action, context }) {
 
-function Deletebutton({ id, action, context }) {
-
-
-    const [isModalOpen, setModalOpen] = useState(false)
+    const [isModalOpen, setModalOpen] = useState(false);
 
     return (
         <div className="p-6">
@@ -27,7 +25,7 @@ function Deletebutton({ id, action, context }) {
             </Modal>
         </div>
     );
-}
+};
 
-export default Deletebutton;
+export default ModalButton;
 
