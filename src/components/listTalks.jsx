@@ -19,8 +19,14 @@ function ListTalks() {
                         Author : {talk.author}{' '}
                         Goal : {talk.goal}{' '}
                     </div>
+
                     <ModalButton id={talk.id} action={'Delete'} context={'Talk'}/>
                     <ModalButton id={talk.id} action={'Update'} context={'Talk'}/>
+<<<<<<< HEAD
+=======
+                    
+                    <ModalButton id={talk.id} action={'Update'} context={'Talk'}/>
+>>>>>>> main
                     
                 </div>
             ))}

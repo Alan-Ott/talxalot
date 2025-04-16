@@ -27,7 +27,7 @@
 > 
 > Evan - tantative sur le update talk
 >
->
+> Alan - Switch case Modular Modal 
 >
 >
 
