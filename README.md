@@ -24,6 +24,8 @@
 > Alan - Implement Delete Talk function 
 >
 > Alan - Improve Delete with ModalButton and Modal (components) 
+> 
+> Evan - tantative sur le update talk
 >
 >
 >
