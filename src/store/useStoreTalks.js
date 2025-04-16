@@ -15,9 +15,11 @@ const useStoreTalks = create(
                    talks: [...state.talks, talk]
                 })),
 
-            updateTalk: (talk) =>
+            updateTalk: (updatedTalk) =>
                 set((state) => ({
-                    talks: [...state.talks, talk]
+                    talks: state.talks.map((talk) => 
+                        talk.id === updatedTalk.id ? updatedTalk : talk
+                    )
                 })),
 
             deleteTalk: (id) =>

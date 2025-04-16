@@ -5,6 +5,8 @@ function UpdateTalk() {
     
     const listTalks = useStoreTalks((state) => state.talks);
 
+
+
             const [title, setTitle] = useState(listTalks.title);
             const [subject, setSubject] = useState(listTalks.subject);
             const [duration, setDuration] = useState(listTalks.duration);
@@ -24,13 +26,15 @@ function UpdateTalk() {
 
         });
 
+
+    /*
             setTitle('');
             setSubject('');
             setDuration(0);
             setAuthor('');
             setGoal('');
+            */
         };
-    console.log(listTalks, "update")
             return (
             <div>
                 <form action="">
