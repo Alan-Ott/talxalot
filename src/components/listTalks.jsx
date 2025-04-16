@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import useStoreTalks from '../store/useStoreTalks';
-import ModalButton from './ModalButton';
+import DeleteButton from './DeleteButton.jsx';
+import UpdateButton from "./UpdateButton.jsx";
 
 function ListTalks() {
 
@@ -20,10 +21,8 @@ function ListTalks() {
                         Goal : {talk.goal}{' '}
                     </div>
 
-                    <ModalButton id={talk.id} action={'Delete'} context={'Talk'}/>
-                    
-                    <ModalButton id={talk.id} action={'Update'} context={'Talk'}/>
-                    
+                    <DeleteButton id={talk.id} action={'Delete'} context={'Talk'}/>
+                    <UpdateButton id={talk.id} action={'Update'} context={'Talk'}/>
                 </div>
             ))}
         </div>

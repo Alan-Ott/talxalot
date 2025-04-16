@@ -3,19 +3,21 @@ import useStoreTalks from '../store/useStoreTalks';
 
 function UpdateTalk() {
     
-    const updateTalk = useStoreTalks((state) => state.updateTalk); 
+    const listTalks = useStoreTalks((state) => state.talks);
 
-            const [title, setTitle] = useState(updateTalk.title);
-            const [subject, setSubject] = useState(updateTalk.subject);
-            const [duration, setDuration] = useState(updateTalk.duration);
-            const [author, setAuthor] = useState(updateTalk.author);
-            const [goal, setGoal] = useState(updateTalk.goal);
+
+
+            const [title, setTitle] = useState(listTalks.title);
+            const [subject, setSubject] = useState(listTalks.subject);
+            const [duration, setDuration] = useState(listTalks.duration);
+            const [author, setAuthor] = useState(listTalks.author);
+            const [goal, setGoal] = useState(listTalks.goal);
 
             const handlesubmit = (e) => {
             e.preventDefault();
 
             UpdateTalk({
-            id: updateTalk.id,
+            id: listTalks.id,
             title: title,
             subject: subject,
             duration: duration,
@@ -24,13 +26,15 @@ function UpdateTalk() {
 
         });
 
+
+    /*
             setTitle('');
             setSubject('');
             setDuration(0);
             setAuthor('');
             setGoal('');
+            */
         };
-
             return (
             <div>
                 <form action="">

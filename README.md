@@ -23,13 +23,13 @@
 >
 > Alan - Implement Delete Talk function 
 >
-> Alan - Improve Delete with ModalButton and Modal (components) 
+> Alan - Improve Delete with DeleteButton and DeleteModal (components) 
 > 
 > Evan - tantative sur le update talk
 >
-> Alan - Switch case Modular Modal 
+> Alan - Switch case Modular DeleteModal 
 >
->
+> Evan - Remove switch case, update et delete fonctionnel
 
 ---
 

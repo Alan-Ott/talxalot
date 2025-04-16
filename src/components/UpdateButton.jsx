@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Modal from './Modal';
+import UpdateModal from './UpdateModal.jsx';
 
-function ModalButton({ id, action, context }) {
+function UpdateButton({ id, action, context }) {
 
     const [isModalOpen, setModalOpen] = useState(false);
 
@@ -14,18 +14,18 @@ function ModalButton({ id, action, context }) {
                 <span>{action} {context}</span>
             </button>
 
-            <Modal
+            <UpdateModal
                 isOpen={isModalOpen}
                 onClose={() => setModalOpen(false)}
-                title='Are you sure you want to'
+                title_modal='Are you sure you want to'
                 id={id}
                 action={action}
                 context={context}
             >
-            </Modal>
+            </UpdateModal>
         </div>
     );
 };
 
-export default ModalButton;
+export default UpdateButton;
 
