@@ -25,7 +25,7 @@
 >
 > Alan - Improve Delete with ModalButton and Modal (components) 
 >
->
+> Alan - Switch case Modular Modal 
 >
 >
 
